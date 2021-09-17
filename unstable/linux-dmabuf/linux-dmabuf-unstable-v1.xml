@@ -225,6 +225,28 @@
            summary="low 32 bits of layout modifier"/>
     </request>
 
+    <request name="add_buffer_handle">
+      <description summary="set bufferhandle info">
+      </description>
+      <arg name="fd" type="int" summary="bufferhandle fd"/>
+      <arg name="width" type="int" summary="bufferhandle width"/>
+      <arg name="stride" type="int" summary="bufferhandle stride"/>
+      <arg name="height" type="int" summary="bufferhandle height"/>
+      <arg name="size" type="int" summary="bufferhandle size"/>
+      <arg name="format" type="int" summary="bufferhandle format"/>
+      <arg name="usage_hi" type="uint"
+           summary="high 32 bits of bufferhandle usage"/>
+      <arg name="usage_lo" type="uint"
+           summary="low 32 bits of bufferhandle usage"/>
+      <arg name="phyaddr_hi" type="uint"
+           summary="high 32 bits of bufferhandle phyaddr"/>
+      <arg name="phyaddr_lo" type="uint"
+           summary="low 32 bits of bufferhandle phyaddr"/>
+      <arg name="key" type="int" summary="bufferhandle key"/>
+      <arg name="reservefds" type="array" summary="bufferhandle reservefds"/>
+      <arg name="reserveints" type="array" summary="bufferhandle reserveints"/>
+    </request>
+
     <enum name="flags">
       <entry name="y_invert" value="1" summary="contents are y-inverted"/>
       <entry name="interlaced" value="2" summary="content is interlaced"/>
