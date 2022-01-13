@@ -1,0 +1,40 @@
+{
+    "name": "@ohos/wayland_protocols_standard",
+    "version": "",
+    "description": "Third-party open-source software wayland-protocols_standard | 三方开源软件wayland-protocols_standard",
+    "homePage": "https://gitee.com/openharmony",
+    "license": "MIT",
+    "repository": "https://gitee.com/openharmony/third_party_wayland-protocols_standard",
+    "domain": "os",
+    "language": "",
+    "publishAs": "code-segment",
+    "private": false,
+    "scripts": {},
+    "tags": [
+        "third_party"
+    ],
+    "keywords": [
+        "third-party",
+        "wayland-protocols-standard"
+    ],
+    "envs": {},
+    "dirs": {},
+    "licensePath": "COPYING",
+    "segment": {
+        "destPath": "third_party/wayland-protocols_standard"
+    },
+    "component": {
+        "name": "thirdparty_wayland-protocols_standard",
+        "subsystem": "",
+        "syscap": [],
+        "features": [],
+        "adapted_system_type": [],
+        "rom": "",
+        "ram": "",
+        "build": {
+            "sub_component": [],
+            "inner_kits": [],
+            "test": []
+        }
+    }
+}
